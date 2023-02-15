@@ -1,0 +1,238 @@
+#header{
+    background-color: #eee;
+    width: 100vw;
+    >.background{
+        background-color: seagreen;
+        margin: auto;
+        width: 1500px;
+        >.container{
+            background-color: rgb(227, 183, 183);
+            width: 1000px;
+            margin: auto;
+            display: flex;
+
+
+            >.logo{
+                height: 80px;
+                
+                >.img-logo{
+                    margin-top: 15px;
+                    width: 72px;
+                    height: 39px;
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >.img-logo_words{
+                    margin-top: 3px;
+                    width: 72px;
+                    height: 8px;
+                    >img{
+                        width: 100%;
+                    }
+                }
+                >span{
+                    display: block;
+                    width: 72px;
+                    text-align: center;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 10px;
+                    display: none;
+                }
+            }
+
+            >.nav-block{
+                margin-left: 40px;
+                background-color: var(--color-top);
+                display: flex;
+
+                >.left-nav{
+
+                    >ul{
+
+                        >li{
+                            width: 88.63px;
+                            height: 80px;
+                            line-height: 80px;
+                            
+                            >a{
+                                font-size: 0.875rem;
+                                color: #FFFFFF;
+                                display: block;
+                                font-weight: 900;
+                            }
+                        }
+                        
+                        >.one-explore{
+                           >ul{
+                            width: 1000px;
+                            height: 280px;
+                            background-color: seagreen;
+                            margin-top: 17px;
+                            display: flex;
+                            justify-content: space-between;
+                            >li{
+                                width: 192px;
+                                height: 280px;
+                                position: relative;
+                                >img{
+                                    margin-top: 5px;
+                                    display: block;
+                                    border-radius: 20px;
+                                    width: 192px;
+                                    height: 275px;
+                                }
+                                >span{
+                                    display: block;
+                                    text-align: center;
+                                    width: 182px;
+                                    position: absolute;
+                                    color: white;
+                                    font-weight: bold;
+                                    top: 75%;
+                                }
+                            }
+
+                            >.one-explore-word{
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 190px;
+
+                                >h4{
+                                    margin-top: -24px;
+                                    display: block;
+                                    color: #68A4E8;
+                                    font-size: 21px;
+                                }
+                                >.desc{
+                                    margin-top: -40px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    width: 190px;
+                                    height: 320px;
+                                    // background-color: #eee;
+                                    flex-direction: column;
+                                    
+                                    >p{
+                                        // margin: 1px ;
+                                        width: 190px;         
+                                        display: block;
+                                        height: 34px;
+                                        font-weight: 300;
+                                        font-size: 17px;
+                                        color: white;
+                                    }
+                                }
+                               
+                            }
+
+                            >.two-explore-word{
+
+                                >.one{
+
+                                    >h4{
+                                        margin-top: -24px;
+                                        display: block;
+                                        color: #68A4E8;
+                                        font-size: 21px;
+                                    }
+                                    >p{
+                                        width: 210px;         
+                                        display: block;
+                                        height: 34px;
+                                        font-weight: 300;
+                                        font-size: 17px;
+                                        color: white;
+                                        margin-top: -40px;
+                                    }
+                                }
+                                >.two{
+                                    >h4{
+                                        margin-top: 14px;
+                                        display: block;
+                                        color: #68A4E8;
+                                        font-size: 21px;
+                                    }
+                                    >div{
+                                        margin-top: -35px;
+                                        >p{
+                                            width: 210px;         
+                                            height: 34px;
+                                            font-weight: 300;
+                                            font-size: 17px;
+                                            color: white;
+                                          
+                                        }
+                                    }
+                                }
+                            }
+                           } 
+                        }
+
+                    }
+                }
+
+                >.right-nav{
+                    >ul{
+
+                        >li{
+                            width: 88.63px;
+                            height: 80px;
+                            line-height: 80px;
+                            
+                            >a{
+                                font-size: 0.875rem;
+                                color: #FFFFFF;
+                                display: block;
+                                font-weight: 900;
+                            }
+                        }
+                    }
+                }
+            }
+
+            >.search{
+                display: flex;
+                width: 327px;
+                position: relative;
+                
+                >.dingwei{
+                    position: absolute;
+                    right: 0;
+                    background-color: aquamarine;
+                    display: flex;
+                    height: 80px;
+                    width: 166px;
+                    >.search-icon{
+                        margin-top: 28px;
+                        margin-right: 45px;
+                        >img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                    >.lauange{
+                        display: flex;
+                        margin-top: 28px;
+                        >.lauange-icon{
+                            >img{
+                                width: 24px;
+                                height: 24px;
+                                margin-right: 10px;
+                            }
+                        }
+                        >span{
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+
+
+
+
+        }
+    }
+}

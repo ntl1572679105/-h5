@@ -1,1 +1,190 @@
-/*# sourceMappingURL=header.css.map */
+#header {
+  background-color: #eee;
+  width: 100vw;
+}
+#header > .background {
+  background-color: seagreen;
+  margin: auto;
+  width: 1500px;
+}
+#header > .background > .container {
+  background-color: rgb(227, 183, 183);
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+#header > .background > .container > .logo {
+  height: 80px;
+}
+#header > .background > .container > .logo > .img-logo {
+  margin-top: 15px;
+  width: 72px;
+  height: 39px;
+}
+#header > .background > .container > .logo > .img-logo > img {
+  width: 100%;
+}
+#header > .background > .container > .logo > .img-logo_words {
+  margin-top: 3px;
+  width: 72px;
+  height: 8px;
+}
+#header > .background > .container > .logo > .img-logo_words > img {
+  width: 100%;
+}
+#header > .background > .container > .logo > span {
+  display: block;
+  width: 72px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  display: none;
+}
+#header > .background > .container > .nav-block {
+  margin-left: 40px;
+  background-color: var(--color-top);
+  display: flex;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > li {
+  width: 88.63px;
+  height: 80px;
+  line-height: 80px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > li > a {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  display: block;
+  font-weight: 900;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul {
+  width: 1000px;
+  height: 280px;
+  background-color: seagreen;
+  margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > li {
+  width: 192px;
+  height: 280px;
+  position: relative;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > li > img {
+  margin-top: 5px;
+  display: block;
+  border-radius: 20px;
+  width: 192px;
+  height: 275px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > li > span {
+  display: block;
+  text-align: center;
+  width: 182px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 75%;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .one-explore-word {
+  display: flex;
+  flex-wrap: wrap;
+  width: 190px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .one-explore-word > h4 {
+  margin-top: -24px;
+  display: block;
+  color: #68A4E8;
+  font-size: 21px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .one-explore-word > .desc {
+  margin-top: -40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 190px;
+  height: 320px;
+  flex-direction: column;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .one-explore-word > .desc > p {
+  width: 190px;
+  display: block;
+  height: 34px;
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .two-explore-word > .one > h4 {
+  margin-top: -24px;
+  display: block;
+  color: #68A4E8;
+  font-size: 21px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .two-explore-word > .one > p {
+  width: 210px;
+  display: block;
+  height: 34px;
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+  margin-top: -40px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .two-explore-word > .two > h4 {
+  margin-top: 14px;
+  display: block;
+  color: #68A4E8;
+  font-size: 21px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .two-explore-word > .two > div {
+  margin-top: -35px;
+}
+#header > .background > .container > .nav-block > .left-nav > ul > .one-explore > ul > .two-explore-word > .two > div > p {
+  width: 210px;
+  height: 34px;
+  font-weight: 300;
+  font-size: 17px;
+  color: white;
+}
+#header > .background > .container > .nav-block > .right-nav > ul > li {
+  width: 88.63px;
+  height: 80px;
+  line-height: 80px;
+}
+#header > .background > .container > .nav-block > .right-nav > ul > li > a {
+  font-size: 0.875rem;
+  color: #FFFFFF;
+  display: block;
+  font-weight: 900;
+}
+#header > .background > .container > .search {
+  display: flex;
+  width: 327px;
+  position: relative;
+}
+#header > .background > .container > .search > .dingwei {
+  position: absolute;
+  right: 0;
+  background-color: aquamarine;
+  display: flex;
+  height: 80px;
+  width: 166px;
+}
+#header > .background > .container > .search > .dingwei > .search-icon {
+  margin-top: 28px;
+  margin-right: 45px;
+}
+#header > .background > .container > .search > .dingwei > .search-icon > img {
+  width: 24px;
+  height: 24px;
+}
+#header > .background > .container > .search > .dingwei > .lauange {
+  display: flex;
+  margin-top: 28px;
+}
+#header > .background > .container > .search > .dingwei > .lauange > .lauange-icon > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#header > .background > .container > .search > .dingwei > .lauange > span {
+  color: white;
+}/*# sourceMappingURL=header.css.map */

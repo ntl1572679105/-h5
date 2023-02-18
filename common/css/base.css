@@ -22,3 +22,8 @@ input {
 i {
     display: inline-block;
 }
+@keyframes changeColor{
+    0%{background: #1d84b5;}
+    50%{background: #00c4cd;}
+    100%{background: #1d84b5;}
+}

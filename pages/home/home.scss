@@ -1,0 +1,153 @@
+#body{
+    width: 100vw;
+    // height: 100vh;
+    >.bottom-bg{
+
+        >.g-img1{
+        
+            >.container{
+        
+                >.swiper-container{
+                    position: relative;
+        
+                    >.swiper-main{
+        
+                        >.swiper-one{
+                            // position: absolute;
+                            --swiper-theme-color: #ff6600;/* 设置Swiper风格 */
+                            --swiper-navigation-color:green;/* 按钮颜色 */
+                            --swiper-navigation-size: 100px;/* 按钮大小 */
+        
+                            >.swiper-wrapper{
+        
+                                >.swiper-slide{
+                                    position: relative;
+                                    width: 100vw;
+                                    height: 100vh;
+        
+                                    >.banner-box{
+                                        // width: 100vw;
+                                        // height: 100vh;
+                                        >img{
+                                            object-fit: cover;
+                                            width: 100vw;
+                                            height: 100vh;
+                                        }
+                                    }
+                                    >.banner-word{
+                                        position: absolute;
+                                        // z-index: 2;
+                                        transform: none;
+                                        max-width: 100%;
+                                        width: 500px;
+                                        // border: 1px solid saddlebrown;
+                                        top: 40%;
+                                        left: 30%;
+                                        transform: translate(-50%,-50%);
+                                        // border: 1px solid black;
+                                        >p{
+                                            display: block;
+                                            width: 650px;
+                                            height: 120px;
+                                            color: #ffffff;
+                                            text-shadow: 3px 10px 5px #656b79;
+                                            font-size: 55px;
+                                            font-weight: bolder;
+                                        }
+                                        >a{
+                                            display: inline-block;
+                                            text-decoration: none;
+                                            text-align: center;
+                                            width: auto;
+                                            width: 260px;
+                                            height: 55px;
+                                            line-height: 55px;
+                                            background-color: #036bd9;
+                                            color: #fff;
+                                            font-size: 23px;
+                                            border-radius: 3.125rem;
+        
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+        
+                    >.swiper-bottom{
+                        position: absolute;
+                        bottom: -60px;
+                        width: 100vw;
+                        height: 200px;
+                        // border: 1px solid salmon;
+                        // background: linear-gradient(0deg, rgb(27, 27, 223), white);;
+                        >.swiper-two{
+                            width: 1000px;
+                            margin: auto;
+                            height: 180px;
+                            overflow: hidden;
+                            >.swiper-wrapper{
+        
+        
+                                >.swiper-slide{
+                                        // width: 144px;
+                                        // height: 144px;
+                                    >#img{
+                                        width: 144px;
+                                        height: 144px;
+                                        >img{
+                                            width: 144px;
+                                            height: 144px;
+                                        }
+                                    }
+                                    >#word{
+                                        background: transparent;
+                                        >h4{
+                                            width: 144px;
+                                            text-align: center;
+                                            color: rgb(12, 12, 12);
+                                            display: inline-block;
+                                            font-size: 14px;
+                                            opacity: .5;
+                                        }
+                                    }
+        
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .g-img2 {
+            background-image: url(../../assert/swiper/testbg.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+            
+            height: 100vh;
+            /* background: rgba(0, 0, 0, .7); */
+            color: #fff;
+            line-height: 100vh;
+            text-align: center;
+            font-size: 20vh;
+        }
+        .g-img3 {
+            background-image: url(../../assert/swiper/1-2.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+            
+            height: 100vh;
+            /* background: rgba(0, 0, 0, .7); */
+            color: #fff;
+            line-height: 100vh;
+            text-align: center;
+            font-size: 20vh;
+        }
+    }
+
+ 
+
+}

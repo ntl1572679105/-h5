@@ -1,7 +1,12 @@
 #header{
     // background-color: #eee;
     background-color: var(--color-top);
+    // background: transparent;
     width: 100vw;
+    // position: fixed;
+    // top: 0;
+    // z-index: 10;
+    // left: 0;
 
     >.background{
         // background-color: seagreen;
@@ -11,7 +16,7 @@
             width: 1000px;
             margin: auto;
             display: flex;
-            background-color: var(--color-top);
+            // background-color: var(--color-top);
             // position: relative;
 
             >.logo{
@@ -116,6 +121,7 @@
                                 opacity: 1;
                                 // visibility: visible;
                                 z-index: 10;
+                                transition: 1s;
                             }
                             // >.one-hove:hover {
                             // }
@@ -136,7 +142,7 @@
                                 // visibility: hidden;
                                 opacity: 0;
                                 transition: 1s;
-                                z-index: -100;
+                                z-index: -1000;
                                 
                                 >ul{
 
@@ -290,7 +296,7 @@
                                 border-bottom-right-radius:80px;
                                 opacity: 0;
                                 transition: 1s;
-                                z-index: -100;
+                                z-index: -1000;
                                 >ul{
                                     width: 1000px;
                                     margin: auto;
@@ -386,7 +392,7 @@
                                 border-bottom-right-radius:80px;
                                 opacity: 0;
                                 transition: 1s;
-                                z-index: -100;
+                                z-index: -1000;
                                 >ul{
                                     width: 1000px;
                                     margin: 20px auto;
@@ -440,7 +446,7 @@
                                 border-bottom-right-radius:80px;
                                 opacity: 0;
                                 transition: 1s;
-                                z-index: -100;
+                                z-index: -1000;
 
                                 >ul{
                                     width: 1000px;
